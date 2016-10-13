@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tester DIV Inline</title>
+</head>
+<body>
+<div id=myid style="background:#E5E4E2; padding:50px 0px 10px"><p>Here is a paragraph</p></div>
+
+
+
+</body>
+</html>

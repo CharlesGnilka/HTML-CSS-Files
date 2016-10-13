@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>The push method appends a new element to an array.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var numb = [];
+
+function myFunction() {
+var i = 0;
+while (i < 10)
+	{
+    numb.push(Math.floor(Math.random()*110))
+	i++;
+	}
+document.getElementById("demo").innerHTML = numb;
+}
+</script>
+
+</body>
+</html>
+
